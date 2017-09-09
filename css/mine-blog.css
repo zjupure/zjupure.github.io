@@ -1,0 +1,46 @@
+// for tag cloud and archives
+.tag-cloud {
+  list-style: none;
+  padding: 0;
+  text-align: justify; 
+  font-size: 16px;
+  li {
+    display: inline-block;
+    margin: 0 12px 12px 0; 
+  }
+}
+#archives {
+  padding: 5px;
+}
+.archive-group {
+  margin: 5px;
+  border-top: 1px solid #ddd;
+}
+.archive-item {
+  margin-left: 5px;
+}
+
+.post-tags {
+  margin-top: 24px;
+  display: block;
+}
+
+.post-tag {
+    display: inline-block;
+    border: 1px solid rgba(255,255,255,.8);
+    border-radius: 999em;
+    padding: 0 10px;
+    color: #fff;
+    line-height: 32px;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 1px;
+    margin-bottom: 6px;
+}
+
+.post-date {
+  width: 80px;
+  font-size: 0.8em;
+  color: #939aa1;
+  display: inline-block;
+}

@@ -1,0 +1,26 @@
+# Site settings
+title: Zjupure Blog
+corner-title: Android Developer
+header-img: img/home-bg.jpg
+email: zjupure@gmail.com
+copyright_name: zjupure
+description: "Write your site description here. It will be used as your sites meta description as well!"
+baseurl: ""
+url: "http://zjupure.github.io"
+#twitter_username: zjupure
+github_username:  zjupure
+#facebook_username:  zjupure
+email_username:  zjupure@gmail.com
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
